@@ -58,17 +58,17 @@ Make sure you have the following installed:
 4. Include the obtained token in the Authorization header for subsequent requests:
 
     ```bash
-    curl -H "Authorization: Token YOUR_TOKEN_HERE" http://localhost:8000/api/notes/
+    curl -H "Authorization: Token YOUR_TOKEN_HERE" http://localhost:8000/api/note/
     ```
 
 ## API Endpoints
 
 - **Login**: `POST /api/login/`
-- **List Notes**: `GET /api/notes/`
-- **Create Note**: `POST /api/notes/`
-- **Retrieve Note**: `GET /api/notes/{note_id}/`
-- **Update Note**: `PUT /api/notes/{note_id}/`
-- **Delete Note**: `DELETE /api/notes/{note_id}/`
+- **List Notes**: `GET /api/note/`
+- **Create Note**: `POST /api/note/`
+- **Retrieve Note**: `GET /api/note/{note_id}/`
+- **Update Note**: `PUT /api/note/{note_id}/`
+- **Delete Note**: `DELETE /api/note/{note_id}/`
 
 For token authentication, use the `Authorization` header with the value `Token YOUR_TOKEN_HERE` in your requests.
 
