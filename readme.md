@@ -63,6 +63,7 @@ Make sure you have the following installed:
 
 ## API Endpoints
 
+- **Login**: `POST /api/login/`
 - **List Notes**: `GET /api/notes/`
 - **Create Note**: `POST /api/notes/`
 - **Retrieve Note**: `GET /api/notes/{note_id}/`
