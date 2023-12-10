@@ -53,7 +53,7 @@ Make sure you have the following installed:
 
 2. Access the API at `http://localhost:8000/` in your browser or using a tool like [curl](https://curl.se/) or [Postman](https://www.postman.com/).
 
-3. Obtain an authentication token by sending a POST request to `http://localhost:8000/api/token/` with your credentials.
+3. Obtain an authentication token by sending a POST request to `http://localhost:8000/api/login/` with your credentials.
 
 4. Include the obtained token in the Authorization header for subsequent requests:
 
@@ -63,7 +63,6 @@ Make sure you have the following installed:
 
 ## API Endpoints
 
-- **Login**: `POST /api/login/`
 - **List Notes**: `GET /api/note/`
 - **Create Note**: `POST /api/note/`
 - **Retrieve Note**: `GET /api/note/{note_id}/`
