@@ -35,7 +35,6 @@ staticfiles/
 docs/_build/
 
 # Ignore Django migrations
-*.py
 */migrations/
 
 # Ignore database configuration
