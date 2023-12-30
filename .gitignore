@@ -37,9 +37,6 @@ docs/_build/
 # Ignore Django migrations
 */migrations/
 
-# Ignore database configuration
-*.db
-*.sqlite3
 
 # Ignore Docker Compose files
 docker-compose.yml
